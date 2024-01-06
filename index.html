@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <main class="main">
+    <!-- <img src="images/bg-pattern.svg" alt="" class="pattern"> -->
+    <img src="images/pattern-circles.svg" alt="" class="circle">
+    <h1 class="header">Simple, traffic-based pricing</h1>
+    <p class="phar h-phar">Sign-up for our 30-day trial. No credit card required.</p> 
+    <div class="card">
+      <div class="card-header">
+
+        <p class="phar upper"><span class="views">500K</span> Pageviews</p>
+        <p class="phar p-phar"><span class="price">$24.00</span> /month</p>
+      </div>
+      <div class="card-body">
+
+        <input type="range" class="range" min="0" max="1000000" step="1000">
+        <div class="choose-cont">
+
+          <p class="phar small">Monthly Billing</p>
+          <button class="toggle"></button>
+          <p class="phar small">Yearly Billing</p>
+          <div class="phar red">25% discount</div>
+        </div>
+      </div>
+      <div class="action">
+        <div class="checks">
+
+          <p class="phar small"><img src="images/icon-check.svg" alt="" class="check"> Unlimited websites</p>
+          <p class="phar small"><img src="images/icon-check.svg" alt="" class="check"> 100% data ownership</p>
+          <p class="phar small"><img src="images/icon-check.svg" alt="" class="check"> Email reports</p>
+        </div>
+        
+        <button class="btn">Start my trial</button>
+      </div>
+    </div>
+  
+</main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Saša Dušić</a>.
+  </div>
+</body>
+</html>
